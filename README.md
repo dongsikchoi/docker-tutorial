@@ -1,7 +1,7 @@
 # docker-tutorial
 
 - pip install fastapi
-- pip install uvicorn==0.23.1
+- pip install uvicorn==0.23.1 | *이상하게 최신버전은 {python_path}/Scripts에 uvicorn.exe까지 빌드가 안 됨*
 </br>
 
 - docker build -t fastapi-image .
